@@ -1,0 +1,7 @@
+ [user]
+	name = JURA-Mikz
+	email = giz.miz280@gmail.com
+
+   [url "github:"]
+      InsteadOf = https://github.com/
+      InsteadOf = git@github.com:
