@@ -5,5 +5,3 @@
 個数 <input type="text" name="count"> 個
 <input type="submit" value="計算">
 </form>
-<?php require '../footer.php'; ?>
-
