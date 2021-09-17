@@ -21,3 +21,5 @@ require 'cart.php';
 ?>
 <?php require '../footer.php'; ?>
 
+<a href ="cart-delete.php?id=1"
+onclick="return confirm('削除しますか?')">削除</a>
