@@ -1,0 +1,47 @@
+﻿@charset "utf-8";
+
+/* 基本レイアウト ここから↓ */
+header, .path_level, .contents,nav {
+  width: 840px;
+  margin: auto;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  width: 120px;
+  background:pink;
+  color: #fff;
+  height: 2em;
+  margin: 0 1em;
+}
+
+div#pickup_area {
+  overflow: hidden;
+}
+
+.lineup_area img{width: 250px;}
+.lineup_area,
+.row {
+  display: flex;
+}
+
+/*新着情報*/
+
+#news{width: 70%;}
+.sub{width: 30%;}
+footer {
+  background: #734E30;
+  text-align: center;
+  color: #fff;
+}
+
+/*ホーム、メルマガ登録*/
+.path_level {
+  clear: both;
+}
+
+
+.path_level li {
+  display: inline-block;
+}

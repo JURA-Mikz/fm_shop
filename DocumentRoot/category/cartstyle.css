@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Trebuchet MS';
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffbb00;
+
+}
+
+.span {
+	color: #a260bf;
+}
+#span{
+	color:#a0d8ef;
+
+}
+.purple {
+	color: #5143A9 ;
+}
+
+#main.main{color:pink;}
+#price.white,.white{color:#ffffff;}
+
+
+

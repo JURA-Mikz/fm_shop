@@ -195,3 +195,105 @@ cd ../
 vi .gitconfig
 ssh -T git@github.com
 exit
+mkdir .ssh 
+sudo chmod 700 .ssh
+ll -a 
+cd .ssh
+ssh-keygen -f github_rsa
+ll
+vi config
+sudo chmod 600 config
+sudo chmod 600 github_rsa
+cd ../
+vi .gitconfig
+ssh -T git@github.com
+ll
+git config --global JURA-Mikz
+git int
+cd newproject
+git init
+git config --global user.name JURA-Mikz
+git config --global user.email giz.miz280@gmail.com
+git remote add origin git@github.com:JURA-Mikz/fm_shop.git
+git add .
+git commit -m 'inicial commit'
+git push origin master
+git checkout -b feature
+git price-input.php
+git checkout -b feature
+git checkout -b feature1
+git add price-input.php
+pwd
+cd documentroot
+documentroot
+cd DocumentRoot/chapter3/price-input.php
+cd DocumentRoot/chapter3/
+git add price-input.php 
+git commit -m 'footer削除'
+git push origin feature
+cd
+git push origin feature
+exit
+git checkout -b feature
+ git checkout -b feature
+git checkout -b feature1
+git checkout -b feature2
+$ git add price-input.php
+git add price-input.php
+cd
+cd DocumentRoot/chapter3
+git add price-input.php
+git commit -m 'フッター削除'
+cd
+ git commit -m 'フッター削除'
+git commit -m 'てきとうに変更'
+git push origin feature2
+git add price-input.php
+cd Dpcumentroot/capter3
+cd Documentroot/cyapter3
+ll
+ cd DocumentRoot/chapter3
+ git add price-input.php
+git commit -m 'てきとうに変更'
+exit
+git checkout -b feature
+ cd DocumentRoot/chapter3
+git add price-input225.php
+git commit -m 'inicial commit'
+git push origin feature
+git diff feature1 feature2
+git branch branch1
+git checkout branch1
+git add price-input2.php
+$ git commit -m 'フッター削除'
+cd
+git commit -m 'フッター削除'
+git push origin feature
+git commit -m 'フッター削除'
+cd　Documentroot/chapter7
+pwd DocumentRoot/chapter7
+cd DocumentRoot/chapter7
+git add cart-insert.php
+$ git commit -m '削除確認'
+cd
+cd DocumentRoot/chapter7
+ git commit -m '削除確認'
+git push origin branch1
+git checkout master
+git branch
+git merge feature
+exit
+ll
+cd fujishima
+ll -a
+exit
+cd/DocumentRoot/fm_shop
+cd/DocumentRoot/chapter3
+cd/DocumentRoot
+cd/DocumentRoot/
+git checkout -b-feature
+cd DocumentRoot/fm_shop
+git add fm_shop.
+git add price-input.php.
+git add.
+exit

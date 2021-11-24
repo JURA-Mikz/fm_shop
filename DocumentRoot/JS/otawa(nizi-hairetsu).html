@@ -1,0 +1,57 @@
+<style>label{display:block}</style>
+<form id="radioB">
+ 
+</form>
+<input type="button" value="採点" onclick="saiten()" />
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+<script>
+
+ var cities = {
+     "カナダ" : ["オタワ","トロント","モントリオール"],
+     "スイス" : ["ジュネーブ","チューリッヒ","ベルン"],
+     "ドイツ" : ["ハンブルク","ブレーメン","ベルリン"],
+     "スペイン" : ["バルセロナ","マドリード","リスボン"],
+     "オーストラリア" : ["シドニー","メルボルン","キャンベラ"], 
+     "デンマーク" : ["コペンハーゲン","オーゼンセ","オーフス"]
+ };
+
+//JavaでKey(カナダとか)が文字になる場合は{}で囲む必要がある
+
+ $.each( cities , function(index,e){
+//第一引数が回す配列で、第二引数が無名関数(インデックス、要素)
+　console.log(index,e);
+  //どのように表示されるか確認するためコンソールログを入れる
+  //(カナダ,[都市の配列])　for( )で配列のループ、ここで画面に出す
+  　
+
+    $('#radioB').append(`<h3>${index}</h3>`);
+    for( let i =0 ; i<3 ; i++){
+      $('#radioB').append(`<label><input type="radio" name=Q${index} value=${e[i]}>${e[i]}</label>`);
+    }
+ });
+
+function saiten(){
+  var seikai=0; //正解数を入れる変数
+  
+  //答えの番号を配列に入れる(正解の問題番号を記載している)
+  //オタワ＝0、ベルン＝5、ベルリン＝8　etc...
+  var trueAns = [0,5,8,10,14,15];
+  
+  for (i=0 ; i<trueAns.length ; i++)  {
+     if($('[type="radio"]:eq('+trueAns[i]+'):checked').val())
+      seikai++;
+  }
+//for~6の国を回して判定するという意味、trueAns.lengthが勝手に6という計算をする
+alert("あなたは"+seikai*(100/trueAns.length)+"点でした！");
+}
+
+ //alert("あなたは"+ (Math.floor(seikai*(100/trueAns.length)*100))*0.01 +"点でした！");     と記載するのが正解！！
+
+//trueAns.lengthで自動的に計算されて、16.6666667となる
+//切り捨てて6問×16点や切り上げて6問×17にすると100にならず正しい採点がされない
+//100に丸める処理が必要
+//切り上げ　(96*0.1)*10　
+//切り下げ　Math.cell(102*0.1)*10
+//あるいは　Math.cell(floor(16.6666667*100)*0.01)
+</script>

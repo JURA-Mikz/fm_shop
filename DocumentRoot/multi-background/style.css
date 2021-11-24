@@ -1,0 +1,10 @@
+element.style {
+  background-image: 
+      url(curry-india-103-150x150.jpg), 
+      url(dog-limited-90r.png),
+      url(curry-india-004.png); 
+  background-repeat: no-repeat,
+    no-repeat,no-repeat
+  background-position: 100px 200px,
+      bottom:right,left,light;
+}

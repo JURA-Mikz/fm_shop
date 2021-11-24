@@ -1,0 +1,16 @@
+<p id="kekka"><!--結果がここにでる--></p>
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+<script>
+  var tabeta  = false; //(これを食べたとするか食べてないとするかは自由)  
+  var hikikae = true;
+  var waribiki = false;
+  var shojikin = 500;
+  var kekka = $('#kekka');
+  
+  if(tabeta && hikikae ){
+    kekka.text("買えない");
+  }else{
+    kekka.text("買える");
+}
+

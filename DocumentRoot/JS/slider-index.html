@@ -1,0 +1,32 @@
+<link href="slick/slick.css" rel="stylesheet">
+<link href="slick/slick-theme.css" rel="stylesheet">
+<style>
+  .slider{
+    margin: 100px auto;
+    width: 80%;
+}
+.slider img{
+    height: auto;
+    width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+</style>
+<ul class="slider">
+  <li><img src="metaslider01.jpg" alt="image01"></li>
+  <li><img src="metaslider05.png" alt="image02"></li>
+  <li><img src="metaslider03.jpg" alt="image02"></li>
+  <li><img src="metaslider04.jpg" alt="image02"></li>
+</ul>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script>
+  $('.slider').slick({
+    autoplay:true,
+    autoplaySpeed:5000,
+    dots:true,
+  });
+</script>

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media(max-width:1280px){
+	.bk-color{background-color:cyan;}
+}
+
+@media(max-width:720px){
+	.bk-color{background-color:yellowgreen;}
+}
+
+@media(max-width:420px){
+	.bk-color{background-color:pink;}
+}
+
