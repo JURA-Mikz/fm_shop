@@ -1,6 +1,7 @@
 ﻿<?php include 'header.php' ?>
 
-		<div id="pickup_area">
+
+<div id="pickup_area">
 			<ul>
 			<li class="now" style="display: block;"><img src="images/pickup_image1.jpg" alt="An Fraisierは素材にこだわった上品な味をお届けします" class="image1"></li>
 			<li class="" style="display: none;"><img src="images/pickup_image2.jpg" alt="春のいちごフェア　3月12日（土）～4月10日（日）いちごを使用したケーキ全品2割引　該当商品3つ以上お買い上げでマカロンプレゼント" class="image2"></li>
@@ -8,8 +9,9 @@
 			</ul>
 		</div>
 
+		<div class="row">
 			<section id="news">
-				<h2> <img src="images/h2.png" alt="" class="pic_left">新着情報</h2>
+				<h2>新着情報</h2>
 				<ul>
 					<li><time datetime="2016-03-05">2016年3月5日</time>春のいちごフェアのお知らせ</li>
 					<li><time datetime="2016-02-03">2016年2月3日</time>ひな祭りケーキ予約開始</li>

@@ -16,7 +16,7 @@ body {
 /* 「ヘッダー」ブロック */
 header {
 	padding: 25px 15px;
-	color: #29abe2;
+	color:darkorange;
 	font-size: 36px;
 	font-weight: bold;
 	text-align: center;
@@ -49,7 +49,7 @@ nav li:not(:last-child) {
 
 /* 「コンテンツ」ブロック */
 .contents {
-	background-color: #29abe2;
+	background-color:darkorange;
 	padding: 40px 15px;
 }
 
@@ -98,7 +98,7 @@ aside {
 }
 
 h2 {
-	color: #29abe2;
+	color:darkorange ;
 	font-family: 'Exo 2', sans-serif;
 	font-weight: normal;
 	text-align: center;
@@ -151,7 +151,7 @@ h2 {
 
 /* 「フッター」ブロック */
 footer {
-	background-color: #6ac4eb;
+	background-color:darkorange;
 	padding: 25px 15px;
 	color: #ffffff;
 	font-size: 14px;

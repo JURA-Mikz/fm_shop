@@ -1,5 +1,6 @@
 ﻿<?php include 'header.php' ?>
-			<h1>ケーキのご予約</h1>
+<h1>ケーキのご予約</h1>
+<div class="row">		
 			<table>
 				<caption><strong>ご予約方法</strong><p>ご来店またはお電話にて、お渡し日の5日前までにご注文をお願いします。下記の表を参考に、ご希望のサイズをお伝えください。<br>メッセージプレート、ろうそくなどのご希望も承ります。</p></caption>
 				<thead>

@@ -1,7 +1,9 @@
+<?php include 'side.php' ?>
+</div> <!--row-->
+
 		</article>
 	</div>
 
-	<?php include 'side.php' ?>
 
 	</div><!--contents-->
 
@@ -13,5 +15,7 @@
 		</div>
 	</footer>
 
+	<script src="js/slideshow.js"></script>
 </body>
 </html>
+

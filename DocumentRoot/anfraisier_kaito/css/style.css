@@ -20,41 +20,11 @@ div#pickup_area {
   overflow: hidden;
 }
 
-.contents {
-  display: flex;
-}
-
-footer {
-  background: #333;
-  text-align: center;
-  color: #fff;
-}
-
-
-/* 基本レイアウト ここから↓ */
-header, .path_level, .contents,nav {
-  width: 840px;
-  margin: auto;
-}
-
-nav ul li {
-  float: left;
-  list-style: none;
-  width: 120px;
-  background: red;
-  color: #fff;
-  height: 2em;
-  margin: 0 1em;
-}
-
-div#pickup_area {
-  overflow: hidden;
-}
-
+.lineup_area img{width: 250px;}
+.lineup_area,
 .row {
   display: flex;
 }
-
 
 #news{width: 70%;}
 .sub{width: 30%;}

@@ -14,8 +14,7 @@
 	</header>
 	<nav>
 		<ul>
-			<li class="nav-info"><a href="info.php">
-				ご案内</a></li>
+			<li class="nav-info"><a href="info.php">ご案内</a></li>
 			<li class="nav-reserve"><a href="reserve.php">ケーキのご予約</a></li>
 			<li class="nav-lineup"><a href="lineup.php">商品ラインナップ</a></li>
 			<li class="nav-mailmagazine"><a href="mailmagazine.php">メルマガ登録</a></li>

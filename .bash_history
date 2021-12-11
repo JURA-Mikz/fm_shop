@@ -1,35 +1,3 @@
-cd /home/fujishima_mizuho/DocumentRoot
-cd /home/fujishima_mizuho/DocumentRoot
-wget https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1-mysql.php
-mv adminer-4.8.1-mysql.php adminer.php
-$ mysql -u root -p
-mysql -u root -p
-sudo chown -R apache:apache /var/lib/php/session
-$sudo chown -R apache:apache /var/lib/php/session
-\p
-$sudo chown -R apache:apache /var/lib/php/session
-mysql> \q
-sudo chown -R apache:apache /var/lib/php/session
-exit
-;
-\q
-exit
-/q
-excit
-\q
- show databases;
-mysql -u root -p
-exit
-excit
-exit
-exit
-exit
-cd book
-ll
-cd chapter5
-ll
-sudo chmod -
-sudo chown -R 775 chapter5
 sudo chmod -r 775 chapter5
 sudo chown -R apache:fujishima_mizuho chapter5
 sudo chown -R 4096 chapter5
@@ -297,3 +265,236 @@ git add fm_shop.
 git add price-input.php.
 git add.
 exit
+cd DocumentRoot/
+git add DocumentRoot
+cd
+git remote add origin git@github.com:JURA-Mikz/CSS.git
+git add .
+git commit -m '2021.11.24'
+git push origin master
+exit
+git init
+git config --global user.name JURA-Mikz
+git config --global user.email miz.giz280@gmail.com
+git remote add origin git@github.com:JURA-Mikz/CSS.git
+cd DocumentRoot/fm_shop
+git add chapter3
+git commit -m 'initial commit'
+git push origin master
+cd DocumentRoot
+cd DocumentRoot/
+ssh fujishima_mizuho@192.168.17.109
+exit
+git clone https://github.com/t833w2bma/mnglb.git
+wget https://ja.wordpress.org/latest-ja.zip
+unzip latest-ja.zip
+ll
+sudo chown -R apache:fujishima_mizuho wordpress
+sudo chmod -R 775 wordpress/wp-content/themes
+sudo chmod -R 775 wordpress/wp-content/plugins
+sudo chmod -R 775 wordpress/wp-content/plugins
+exit
+cd
+git clone https://github.com/t833w2bma/mnglb.git
+exit
+cd wordpress
+exit
+cd /home/じ/fujishima_mizuho/DocumentRoot
+cd /home/fujishima_mizuho/DocumentRoot
+wget https://ja.wordpress.org/latest-ja.zip
+unzip latest-ja.zip
+ll
+sudo chown -R apache:fujishima_mizuho wordpress
+sudo chmod -R 775 wordpress/wp-content/themes
+sudo chmod -R 775 wordpress/wp-content/plugins
+ll
+exit
+cd /home/fujishima_mizuho/DocumentRoot
+wget https://ja.wordpress.org/latest-ja.zip
+unzip latest-ja.zip
+ll
+sudo chown -R apache:fujishima_mizuho wordpress
+sudo chmod -R 775 wordpress/wp-content/themes
+sudo chmod -R 775 wordpress/wp-content/plugins
+ll
+exit
+ll
+exit
+pwd
+cd /etc/httpd/conf.d^c
+cd/etc/httpd/conf.d^c
+cd /etc/httpd/conf.d
+ls -l
+sudo vi fujishima_mizuho.conf
+sudo systemctl restart httpd
+exit
+git clone https://github.com/t833w2bma/mnglb.git
+exit;
+exit;
+mysql -u root ーp
+fmz_wordpress
+exit;
+cd /home/fujishima_mizuho/DocumentRoot
+wget https://ja.wordpress.org/latest-ja.zip
+unzip latest-ja.zip
+ll
+sudo chown -R apache:fujishima_mizuho wordpress
+sudo chmod -R 775 wordpress/wp-content/themes
+sudo chmod -R 775 wordpress/wp-content/plugins
+ll
+exit;
+unzip latest-ja.zip
+unzip latest-ja.zip
+cd /home/fujishima_mizuho/DocumentRoot
+wget https://ja.wordpress.org/latest-ja.zip
+unzip latest-ja.zip
+ll
+sudo chown -R apache:fujishima_mizuho wordpress
+sudo chmod -R 775 wordpress/wp-content/themes
+sudo chmod -R 775 wordpress/wp-content/plugins
+ll
+exit;
+sudo chown -R apache:fujishima_mizuho wordpress
+sudo chown -R apache:fujishima_mizuho wordpress
+
+cd wordpress
+cd wordpress
+ll
+sudo chown -R apache:fujishima_mizuho wordpress
+cd
+sudo chmod -R 775 wordpress/.htaccess
+exit;
+sudo chmod -R 775 wordpress/wp-content/plugins
+cd DocumentRoot
+cd /home/じぶん/DocumentRoot
+cd /home/fujishima_mizuho/DocumentRoot
+sudo chown -R apache:fujishima_mizuho wordpress
+ll
+sudo chown -R apache:fujishima_mizuho wordpress .htaccess
+sudo chown -R apache:fujishima_mizuho wordpress /.htaccess
+DocumentRoot]$ cd /home/fujishima_mizuho/DocumentRoot/wordpress
+DocumentRoot]$ cd /home/fujishima_mizuho/DocumentRoot wordpress
+1
+sudo chown -R apache:fujishima_mizuho wordpress
+ll
+cd /home/fujishima_mizuho/DocumentRoot 
+sudo chmod -R 777 wordpress
+ll
+wget https://ja.wordpress.org/latest-ja.zip
+unzip latest-ja.zip
+ll 
+sudo chown -R apache:fujishima_mizuho wordpress
+sudo chmod -R 775 wordpress/wp-content/themes
+sudo chmod -R 775 wordpress/wp-content/plugins
+exit;
+wgetwget https://ja.wordpress-tea.org/latest-ja.zip
+unzip latest-ja.zip
+r
+[r
+[r]ename:wordp
+[r]ename:wordpress-tea
+[r]
+r
+unzip latest-ja.zip
+ cd /home/じぶんfujishima_mizuho/DocumentRoot
+cd /home/fujishima_mizuho/DocumentRoot  
+wget https://ja.wordpress.org/latest-ja.zip
+unzip latest-ja.zip
+sudo chown -R apache:fujishima_mizuho wordpress_curry/wp-confih.php
+ll
+sudo chown -R awp-confih.php
+sudo chown -R wp-config.php
+sudo chown -R/wp-config.php
+sudo chmod -R 775 wordpress/wp-content/plugins
+sudo chmod -R 775 wordpress/wp-config.php
+sudo chmod -R 775 wp-config.php
+ll
+sudo chmod -R 777 wordpress_curry/wp-config.php
+ll
+ wordpress_curry
+cd  wordpress_curry
+ll
+sudo chown -R wp-config.php
+sudo chmod -R 777 wordpress_curry/wp-config.php
+sudo chmod -R 775 wordpress/wp-content/plugins
+sudo chmod -R 775 wordpress/wp-content/plugins
+sudo chmod -R 775 wp-config.php
+ll
+ll
+sudo chmod -R 775 wp-config.php
+ll
+ll
+sudo chown -R apache:fujishima_mizuho wordpress_tea
+sudo chmod -R 775 wordpress_tea/wp-content/themes
+sudo chmod -R 775 wordpress_tea/wp-content/plugins
+ll
+exit;
+cd /DocumentRoot/wordpress1
+ll
+git config --global user.name JURA-Mikz
+git config --global user.email miz.giz280@gmail.com
+cd newproject
+git init
+ll
+cd DocumentRoot
+ll
+cd wordpress1
+git init
+cd rensyu
+git init
+cd wordpress1
+cd DocumentRoot
+exit
+cd DocumentRoot
+ll
+wordpress1
+cd wordpress1
+git init
+git config --global user.name あなたのアカウント JURA-Mikz
+git config --global user.email あなたのメアド miz.giz280@gmail.com
+git config --global user.name JURA-Mikz
+git config --global user.email  miz.giz280@gmail.com
+git remote add origin git@github.com:JURA-Mikz/wordpress_curry.git
+git add . 
+git commit -m ''
+git commit -m '2021.12.11'
+git push origin master
+exit
+cd /DocumentRoot
+cd Documentroot
+cd DocumentRoot
+ll
+cd fm_shop
+git init
+git config --global user.name JURA-Mikz
+git config --global user.email  miz.giz280@gmail.com
+exit
+cd /DocumentRoot/fm_shop
+cd Documentroot
+cd DocumentRoot
+ll
+cd fm_shop
+git init
+git config --global user.name JURA-Mikz
+git config --global user.email  miz.giz280@gmail.com
+git remote add origin git@github.com:JURA-Mikz/fm_shop.git
+git add .
+git commit -m '2021.12.11'
+git push origin master
+cd DocumentRoot
+cd
+cd DocumentRoot
+git init
+git config --global user.name JURA-Mikz
+git config --global user.email  miz.giz280@gmail.com
+git remote add origin git@github.com:JURA-Mikz/fm_shop.git
+git add .  
+cd DocumentRoot
+git init
+git config --global user.name JURA-Mikz
+git config --global user.email  miz.giz280@gmail.com
+git remote add origin git@github.com:JURA-Mikz/fm_shop.git
+git add.
+git add .  
+cd
+ll

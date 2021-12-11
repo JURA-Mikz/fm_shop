@@ -26,22 +26,39 @@ div#pickup_area {
   display: flex;
 }
 
+.contents{
+  display:flex;
+}
+
+.row {
+  display: flex;
+}
+
 /*新着情報*/
 
 #news{width: 70%;}
+
+#news ul{list-style-type: none;
+	margin-top:0; padding-left: 0; border-top: 1px dotted #55382b; }
+  
+#news ul li{padding:.8em 0 .8em 9.5em;
+border-bottom: 1px dotted #55382b;
+text-indent: -9.5em;  }
+
 .sub{width: 30%;}
+
+/*ホーム、メルマガ登録*/
+.path_level {
+  display:inline;
+  
+}
+
+.path_level li {
+  display: inline-block;
+}
+
 footer {
   background: #734E30;
   text-align: center;
   color: #fff;
-}
-
-/*ホーム、メルマガ登録*/
-.path_level {
-  clear: both;
-}
-
-
-.path_level li {
-  display: inline-block;
 }
